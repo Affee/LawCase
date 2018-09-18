@@ -82,6 +82,11 @@
 		F656A49D2150BB5B00D9A60D /* LawCase */ = {
 			isa = PBXGroup;
 			children = (
+				F656A4BB21510B8400D9A60D /* jjj */,
+				F656A4BA21510B7900D9A60D /* ms */,
+				F656A4B921510B6900D9A60D /* Vendor */,
+				F656A4B82151090A00D9A60D /* Tools */,
+				F656A4B72150FC1A00D9A60D /* Rescource */,
 				F656A4B62150E2E100D9A60D /* Util */,
 				F656A4B52150E2D000D9A60D /* Base */,
 				F656A4B42150E2AD00D9A60D /* Class */,
@@ -117,6 +122,41 @@
 			children = (
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		F656A4B72150FC1A00D9A60D /* Rescource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Rescource;
+			sourceTree = "<group>";
+		};
+		F656A4B82151090A00D9A60D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F656A4B921510B6900D9A60D /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		F656A4BA21510B7900D9A60D /* ms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ms;
+			sourceTree = "<group>";
+		};
+		F656A4BB21510B8400D9A60D /* jjj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jjj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
