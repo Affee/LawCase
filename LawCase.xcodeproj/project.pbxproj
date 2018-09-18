@@ -14,6 +14,7 @@
 		F656A4A82150BB5E00D9A60D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F656A4A72150BB5E00D9A60D /* Assets.xcassets */; };
 		F656A4AB2150BB5E00D9A60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F656A4A92150BB5E00D9A60D /* LaunchScreen.storyboard */; };
 		F656A4AE2150BB5E00D9A60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4AD2150BB5E00D9A60D /* main.m */; };
+		F656A4C72151126200D9A60D /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4C62151126200D9A60D /* SelfViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		F656A4AA2150BB5E00D9A60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F656A4AC2150BB5E00D9A60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F656A4AD2150BB5E00D9A60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F656A4C52151126200D9A60D /* SelfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelfViewController.h; sourceTree = "<group>"; };
+		F656A4C62151126200D9A60D /* SelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				F656A49F2150BB5B00D9A60D /* AppDelegate.m */,
 				F656A4A12150BB5B00D9A60D /* ViewController.h */,
 				F656A4A22150BB5B00D9A60D /* ViewController.m */,
+				F656A4C52151126200D9A60D /* SelfViewController.h */,
+				F656A4C62151126200D9A60D /* SelfViewController.m */,
 				F656A4A42150BB5B00D9A60D /* Main.storyboard */,
 				F656A4A72150BB5E00D9A60D /* Assets.xcassets */,
 				F656A4A92150BB5E00D9A60D /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F656A4C72151126200D9A60D /* SelfViewController.m in Sources */,
 				F656A4A32150BB5B00D9A60D /* ViewController.m in Sources */,
 				F656A4AE2150BB5E00D9A60D /* main.m in Sources */,
 				F656A4A02150BB5B00D9A60D /* AppDelegate.m in Sources */,
