@@ -16,7 +16,11 @@
 		F656A4AE2150BB5E00D9A60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4AD2150BB5E00D9A60D /* main.m */; };
 		F656A4C72151126200D9A60D /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4C62151126200D9A60D /* SelfViewController.m */; };
 		F656A4E2215113E300D9A60D /* sssssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4E1215113E300D9A60D /* sssssViewController.m */; };
-		F656A4E52151146000D9A60D /* hahahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4E42151146000D9A60D /* hahahViewController.m */; };
+		F6818BC4215226D000C5A519 /* UIFont+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC3215226D000C5A519 /* UIFont+Affee.m */; };
+		F6818BC7215247FE00C5A519 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC6215247FE00C5A519 /* DateUtil.m */; };
+		F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC921524B9D00C5A519 /* UIImage+Affee.m */; };
+		F6818BCC21524DD000C5A519 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6818BCB21524DD000C5A519 /* Accelerate.framework */; };
+		F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +41,18 @@
 		F656A4C62151126200D9A60D /* SelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
 		F656A4E0215113E300D9A60D /* sssssViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sssssViewController.h; sourceTree = "<group>"; };
 		F656A4E1215113E300D9A60D /* sssssViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sssssViewController.m; sourceTree = "<group>"; };
-		F656A4E32151146000D9A60D /* hahahViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hahahViewController.h; sourceTree = "<group>"; };
-		F656A4E42151146000D9A60D /* hahahViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hahahViewController.m; sourceTree = "<group>"; };
+		F656A4E6215212A400D9A60D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F656A4E7215213BC00D9A60D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F656A4E8215213DF00D9A60D /* KKCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKCommonMacro.h; sourceTree = "<group>"; };
+		F6818BC2215226D000C5A519 /* UIFont+Affee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Affee.h"; sourceTree = "<group>"; };
+		F6818BC3215226D000C5A519 /* UIFont+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Affee.m"; sourceTree = "<group>"; };
+		F6818BC5215247FE00C5A519 /* DateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		F6818BC6215247FE00C5A519 /* DateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		F6818BC821524B9D00C5A519 /* UIImage+Affee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Affee.h"; sourceTree = "<group>"; };
+		F6818BC921524B9D00C5A519 /* UIImage+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Affee.m"; sourceTree = "<group>"; };
+		F6818BCB21524DD000C5A519 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F6818BCD21524E6F00C5A519 /* UIButton+Affee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Affee.h"; sourceTree = "<group>"; };
+		F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Affee.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6818BCC21524DD000C5A519 /* Accelerate.framework in Frameworks */,
 				987E5812F92714997ED901A1 /* libPods-LawCase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +71,7 @@
 		23E80AB5D5F9E37C3B0E77C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6818BCB21524DD000C5A519 /* Accelerate.framework */,
 				04840693948C0EC400A18E6A /* libPods-LawCase.a */,
 			);
 			name = Frameworks;
@@ -91,14 +107,13 @@
 		F656A49D2150BB5B00D9A60D /* LawCase */ = {
 			isa = PBXGroup;
 			children = (
+				F656A4D8215113CF00D9A60D /* ThirdFrameWork */,
+				F656A4DF215113CF00D9A60D /* jjj */,
+				F656A4DB215113CF00D9A60D /* Rescource */,
+				F656A4DC215113CF00D9A60D /* Util */,
+				F656A4DA215113CF00D9A60D /* Tools */,
 				F656A4DE215113CF00D9A60D /* Base */,
 				F656A4D9215113CF00D9A60D /* Class */,
-				F656A4DF215113CF00D9A60D /* jjj */,
-				F656A4DB215113CF00D9A60D /* ms */,
-				F656A4DD215113CF00D9A60D /* Rescource */,
-				F656A4DA215113CF00D9A60D /* Tools */,
-				F656A4DC215113CF00D9A60D /* Util */,
-				F656A4D8215113CF00D9A60D /* Vendor */,
 				F656A49E2150BB5B00D9A60D /* AppDelegate.h */,
 				F656A49F2150BB5B00D9A60D /* AppDelegate.m */,
 				F656A4A12150BB5B00D9A60D /* ViewController.h */,
@@ -114,16 +129,17 @@
 			path = LawCase;
 			sourceTree = "<group>";
 		};
-		F656A4D8215113CF00D9A60D /* Vendor */ = {
+		F656A4D8215113CF00D9A60D /* ThirdFrameWork */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Vendor;
+			path = ThirdFrameWork;
 			sourceTree = "<group>";
 		};
 		F656A4D9215113CF00D9A60D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				F656A4DD215113CF00D9A60D /* Macros */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -135,27 +151,31 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		F656A4DB215113CF00D9A60D /* ms */ = {
+		F656A4DB215113CF00D9A60D /* Rescource */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ms;
+			path = Rescource;
 			sourceTree = "<group>";
 		};
 		F656A4DC215113CF00D9A60D /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				F656A4E32151146000D9A60D /* hahahViewController.h */,
-				F656A4E42151146000D9A60D /* hahahViewController.m */,
+				F6818BC12152255400C5A519 /* Category(类别) */,
+				F6818BC5215247FE00C5A519 /* DateUtil.h */,
+				F6818BC6215247FE00C5A519 /* DateUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		F656A4DD215113CF00D9A60D /* Rescource */ = {
+		F656A4DD215113CF00D9A60D /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				F656A4E6215212A400D9A60D /* PrefixHeader.pch */,
+				F656A4E7215213BC00D9A60D /* Constants.h */,
+				F656A4E8215213DF00D9A60D /* KKCommonMacro.h */,
 			);
-			path = Rescource;
+			path = Macros;
 			sourceTree = "<group>";
 		};
 		F656A4DE215113CF00D9A60D /* Base */ = {
@@ -172,6 +192,19 @@
 				F656A4E1215113E300D9A60D /* sssssViewController.m */,
 			);
 			path = jjj;
+			sourceTree = "<group>";
+		};
+		F6818BC12152255400C5A519 /* Category(类别) */ = {
+			isa = PBXGroup;
+			children = (
+				F6818BC2215226D000C5A519 /* UIFont+Affee.h */,
+				F6818BC3215226D000C5A519 /* UIFont+Affee.m */,
+				F6818BC821524B9D00C5A519 /* UIImage+Affee.h */,
+				F6818BC921524B9D00C5A519 /* UIImage+Affee.m */,
+				F6818BCD21524E6F00C5A519 /* UIButton+Affee.h */,
+				F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */,
+			);
+			path = "Category(类别)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,11 +282,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LawCase/Pods-LawCase-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
@@ -288,11 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F656A4E2215113E300D9A60D /* sssssViewController.m in Sources */,
+				F6818BC4215226D000C5A519 /* UIFont+Affee.m in Sources */,
 				F656A4C72151126200D9A60D /* SelfViewController.m in Sources */,
+				F6818BC7215247FE00C5A519 /* DateUtil.m in Sources */,
 				F656A4A32150BB5B00D9A60D /* ViewController.m in Sources */,
+				F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */,
+				F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */,
 				F656A4AE2150BB5E00D9A60D /* main.m in Sources */,
 				F656A4A02150BB5B00D9A60D /* AppDelegate.m in Sources */,
-				F656A4E52151146000D9A60D /* hahahViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +473,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NK8YAKFDQQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LawCase/Class/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = LawCase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,6 +493,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NK8YAKFDQQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LawCase/Class/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = LawCase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
