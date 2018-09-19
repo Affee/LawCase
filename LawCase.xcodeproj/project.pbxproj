@@ -21,6 +21,7 @@
 		F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC921524B9D00C5A519 /* UIImage+Affee.m */; };
 		F6818BCC21524DD000C5A519 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6818BCB21524DD000C5A519 /* Accelerate.framework */; };
 		F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */; };
+		F6818BD22152532900C5A519 /* NSDictionary+Nilsafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BD12152532900C5A519 /* NSDictionary+Nilsafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		F6818BCB21524DD000C5A519 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		F6818BCD21524E6F00C5A519 /* UIButton+Affee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Affee.h"; sourceTree = "<group>"; };
 		F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Affee.m"; sourceTree = "<group>"; };
+		F6818BD02152532900C5A519 /* NSDictionary+Nilsafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Nilsafe.h"; sourceTree = "<group>"; };
+		F6818BD12152532900C5A519 /* NSDictionary+Nilsafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Nilsafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 				F6818BC921524B9D00C5A519 /* UIImage+Affee.m */,
 				F6818BCD21524E6F00C5A519 /* UIButton+Affee.h */,
 				F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */,
+				F6818BD02152532900C5A519 /* NSDictionary+Nilsafe.h */,
+				F6818BD12152532900C5A519 /* NSDictionary+Nilsafe.m */,
 			);
 			path = "Category(类别)";
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 				F656A4C72151126200D9A60D /* SelfViewController.m in Sources */,
 				F6818BC7215247FE00C5A519 /* DateUtil.m in Sources */,
 				F656A4A32150BB5B00D9A60D /* ViewController.m in Sources */,
+				F6818BD22152532900C5A519 /* NSDictionary+Nilsafe.m in Sources */,
 				F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */,
 				F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */,
 				F656A4AE2150BB5E00D9A60D /* main.m in Sources */,
