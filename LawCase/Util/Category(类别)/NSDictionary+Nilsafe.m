@@ -7,7 +7,7 @@
 //
 
 #import <objc/runtime.h>
-#import "NSDictionary+NilSafe.h"
+#import "NSDictionary+Nilsafe.h"
 
 @implementation NSObject (Swizzling)
 

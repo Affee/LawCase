@@ -22,6 +22,12 @@
 		F6818BCC21524DD000C5A519 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6818BCB21524DD000C5A519 /* Accelerate.framework */; };
 		F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */; };
 		F6818BD22152532900C5A519 /* NSDictionary+Nilsafe.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BD12152532900C5A519 /* NSDictionary+Nilsafe.m */; };
+		F6818BD52153485000C5A519 /* UIColor+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BD42153485000C5A519 /* UIColor+Affee.m */; };
+		F6818BD8215348FC00C5A519 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BD7215348FC00C5A519 /* StringUtil.m */; };
+		F6818BDE215386CD00C5A519 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BDB215386CC00C5A519 /* WRCustomNavigationBar.m */; };
+		F6818BDF215386CD00C5A519 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BDD215386CC00C5A519 /* WRNavigationBar.m */; };
+		F6818BE22153894300C5A519 /* AFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BE12153894300C5A519 /* AFBaseViewController.m */; };
+		F6818BE52153936F00C5A519 /* AFBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BE42153936F00C5A519 /* AFBaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +62,18 @@
 		F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Affee.m"; sourceTree = "<group>"; };
 		F6818BD02152532900C5A519 /* NSDictionary+Nilsafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Nilsafe.h"; sourceTree = "<group>"; };
 		F6818BD12152532900C5A519 /* NSDictionary+Nilsafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Nilsafe.m"; sourceTree = "<group>"; };
+		F6818BD32153485000C5A519 /* UIColor+Affee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Affee.h"; sourceTree = "<group>"; };
+		F6818BD42153485000C5A519 /* UIColor+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Affee.m"; sourceTree = "<group>"; };
+		F6818BD6215348FC00C5A519 /* StringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		F6818BD7215348FC00C5A519 /* StringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		F6818BDA215386CC00C5A519 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		F6818BDB215386CC00C5A519 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		F6818BDC215386CC00C5A519 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		F6818BDD215386CC00C5A519 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		F6818BE02153894300C5A519 /* AFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFBaseViewController.h; sourceTree = "<group>"; };
+		F6818BE12153894300C5A519 /* AFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBaseViewController.m; sourceTree = "<group>"; };
+		F6818BE32153936F00C5A519 /* AFBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFBaseNavigationController.h; sourceTree = "<group>"; };
+		F6818BE42153936F00C5A519 /* AFBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBaseNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +160,9 @@
 		F656A4D9215113CF00D9A60D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				F6818BE82153AD2F00C5A519 /* Mine */,
+				F6818BE72153AD1D00C5A519 /* Message */,
+				F6818BE62153ACD300C5A519 /* Case */,
 				F656A4DD215113CF00D9A60D /* Macros */,
 			);
 			path = Class;
@@ -150,6 +171,7 @@
 		F656A4DA215113CF00D9A60D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F6818BD9215386CC00C5A519 /* WRNavigationBar */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -167,6 +189,8 @@
 				F6818BC12152255400C5A519 /* Category(类别) */,
 				F6818BC5215247FE00C5A519 /* DateUtil.h */,
 				F6818BC6215247FE00C5A519 /* DateUtil.m */,
+				F6818BD6215348FC00C5A519 /* StringUtil.h */,
+				F6818BD7215348FC00C5A519 /* StringUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -184,6 +208,10 @@
 		F656A4DE215113CF00D9A60D /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F6818BE02153894300C5A519 /* AFBaseViewController.h */,
+				F6818BE12153894300C5A519 /* AFBaseViewController.m */,
+				F6818BE32153936F00C5A519 /* AFBaseNavigationController.h */,
+				F6818BE42153936F00C5A519 /* AFBaseNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -206,10 +234,140 @@
 				F6818BC921524B9D00C5A519 /* UIImage+Affee.m */,
 				F6818BCD21524E6F00C5A519 /* UIButton+Affee.h */,
 				F6818BCE21524E6F00C5A519 /* UIButton+Affee.m */,
+				F6818BD32153485000C5A519 /* UIColor+Affee.h */,
+				F6818BD42153485000C5A519 /* UIColor+Affee.m */,
 				F6818BD02152532900C5A519 /* NSDictionary+Nilsafe.h */,
 				F6818BD12152532900C5A519 /* NSDictionary+Nilsafe.m */,
 			);
 			path = "Category(类别)";
+			sourceTree = "<group>";
+		};
+		F6818BD9215386CC00C5A519 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F6818BDA215386CC00C5A519 /* WRCustomNavigationBar.h */,
+				F6818BDB215386CC00C5A519 /* WRCustomNavigationBar.m */,
+				F6818BDC215386CC00C5A519 /* WRNavigationBar.h */,
+				F6818BDD215386CC00C5A519 /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		F6818BE62153ACD300C5A519 /* Case */ = {
+			isa = PBXGroup;
+			children = (
+				F6818BEC2153AD9600C5A519 /* ViewModel */,
+				F6818BEB2153AD7B00C5A519 /* ViewController */,
+				F6818BEA2153AD7300C5A519 /* View */,
+				F6818BE92153AD3900C5A519 /* Model */,
+			);
+			path = Case;
+			sourceTree = "<group>";
+		};
+		F6818BE72153AD1D00C5A519 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F6818BF42153B13B00C5A519 /* Model */,
+				F6818BF22153B13B00C5A519 /* View */,
+				F6818BF12153B13B00C5A519 /* ViewController */,
+				F6818BF32153B13B00C5A519 /* ViewModel */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		F6818BE82153AD2F00C5A519 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F6818BED2153B12D00C5A519 /* Model */,
+				F6818BF02153B12D00C5A519 /* View */,
+				F6818BEF2153B12D00C5A519 /* ViewController */,
+				F6818BEE2153B12D00C5A519 /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F6818BE92153AD3900C5A519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6818BEA2153AD7300C5A519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6818BEB2153AD7B00C5A519 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F6818BEC2153AD9600C5A519 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6818BED2153B12D00C5A519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6818BEE2153B12D00C5A519 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6818BEF2153B12D00C5A519 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F6818BF02153B12D00C5A519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6818BF12153B13B00C5A519 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F6818BF22153B13B00C5A519 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6818BF32153B13B00C5A519 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F6818BF42153B13B00C5A519 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,14 +485,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6818BD8215348FC00C5A519 /* StringUtil.m in Sources */,
+				F6818BDE215386CD00C5A519 /* WRCustomNavigationBar.m in Sources */,
 				F656A4E2215113E300D9A60D /* sssssViewController.m in Sources */,
+				F6818BE22153894300C5A519 /* AFBaseViewController.m in Sources */,
 				F6818BC4215226D000C5A519 /* UIFont+Affee.m in Sources */,
 				F656A4C72151126200D9A60D /* SelfViewController.m in Sources */,
+				F6818BD52153485000C5A519 /* UIColor+Affee.m in Sources */,
 				F6818BC7215247FE00C5A519 /* DateUtil.m in Sources */,
 				F656A4A32150BB5B00D9A60D /* ViewController.m in Sources */,
 				F6818BD22152532900C5A519 /* NSDictionary+Nilsafe.m in Sources */,
 				F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */,
+				F6818BDF215386CD00C5A519 /* WRNavigationBar.m in Sources */,
 				F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */,
+				F6818BE52153936F00C5A519 /* AFBaseNavigationController.m in Sources */,
 				F656A4AE2150BB5E00D9A60D /* main.m in Sources */,
 				F656A4A02150BB5B00D9A60D /* AppDelegate.m in Sources */,
 			);

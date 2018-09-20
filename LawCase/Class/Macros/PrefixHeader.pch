@@ -49,12 +49,21 @@
 #import <MJRefresh/MJRefresh.h>
 #import <MJExtension/MJExtension.h>
 #import "UIImageView+WebCache.h"
-
-
 #import <UIKit/UIKit.h>
 
 //类别
 #import "UIFont+Affee.h"
+#import "UIImage+Affee.h"
+#import "UIButton+Affee.h"
+#import "UIColor+Affee.h"
+#import "NSDictionary+Nilsafe.h"
+#import "DateUtil.h"
+#import "StringUtil.h"
+
+//工具
+#import "WRNavigationBar.h"
+
+
 
 //#import "WMPageController.h"
 //#import "IQKeyboardManager.h"
