@@ -1,18 +1,18 @@
 //
-//  SelfViewController.m
+//  MineViewController.m
 //  LawCase
 //
-//  Created by affee on 2018/9/18.
+//  Created by affee on 2018/9/21.
 //  Copyright © 2018年 affee. All rights reserved.
 //
 
-#import "SelfViewController.h"
+#import "MineViewController.h"
 
-@interface SelfViewController ()
+@interface MineViewController ()
 
 @end
 
-@implementation SelfViewController
+@implementation MineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
