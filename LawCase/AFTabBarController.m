@@ -32,41 +32,30 @@
     NSArray *selImage = @[@"comui_tab_case1",@"comui_tab_message_selected0",@"comui_tab_mine_selected"];
     NSArray *childVC =  @[@"CaseViewController",@"MessageViewController",@"MineViewController"];
     NSArray *titleArray = @[@"办案",@"消息",@"我的"];
-    
+
     NSMutableArray *arrayM = [NSMutableArray array];
     for (int i = 0; i < childVC.count; i++) {
-        Class cls  = NSClassFromString(childVC[i]);
-        UIViewController * vc = [[cls alloc]init];
-        vc.tabBarItem.title = titleArray[i];
-        vc.tabBarItem.image = [UIImage imageNamed:norImage[i]];
-        AFBaseNavigationController *navc = [[AFBaseNavigationController alloc] initWithRootViewController:vc];
-        navc.navigationBar.translucent = NO;
-        //设置原始图片
-        vc.tabBarItem.selectedImage = [[UIImage imageNamed:selImage[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        //            vc.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
-        [arrayM addObject:navc];
+        Class cls = NSClassFromString(childVC[i]);
+        UIViewController *vc 
     }
-
-    
-    [[UITabBarItem appearance]setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11], NSForegroundColorAttributeName:[UIColor lightGrayColor]}forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11], NSForegroundColorAttributeName:[UIColor blueColor]} forState:UIControlStateSelected];
-    self.viewControllers = arrayM;
+//    for (int i = 0; i < childVC.count; i++) {
+//        Class cls  = NSClassFromString(childVC[i]);
+//        UIViewController * vc = [[cls alloc]init];
+//        vc.tabBarItem.title = titleArray[i];
+//        vc.tabBarItem.image = [UIImage imageNamed:norImage[i]];
+//        AFBaseNavigationController *navc = [[AFBaseNavigationController alloc] initWithRootViewController:vc];
+//        navc.navigationBar.translucent = NO;
+//        //设置原始图片
+//        vc.tabBarItem.selectedImage = [[UIImage imageNamed:selImage[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+//        //            vc.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+//        [arrayM addObject:navc];
+//    }
+//
+//
+//    [[UITabBarItem appearance]setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11], NSForegroundColorAttributeName:[UIColor lightGrayColor]}forState:UIControlStateNormal];
+//    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:11], NSForegroundColorAttributeName:[UIColor blueColor]} forState:UIControlStateSelected];
+//    self.viewControllers = arrayM;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
