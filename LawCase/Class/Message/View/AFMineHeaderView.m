@@ -36,7 +36,15 @@
     self.w_headImage.image = [UIImage imageNamed:@"face"];
     _w_headImage.layer.cornerRadius = 75/2.0;
     _w_headImage.layer.masksToBounds = YES;
-    self.w_headImage.hidden = YES;
+//    self.w_headImage.hidden = YES;
+    [self addSubview:self.w_headImage];
+    [self.w_headImage mas_makeConstraints:^(MASConstraintMaker *make) {
+        @strongify(self);
+        make.top.equalTo(self).offset(64);
+        make.left.equalTo(self).offset(25);
+        make.width.mas_equalTo(75);
+        make.height.mas_equalTo(75);
+    }];
     
     
 }
