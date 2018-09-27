@@ -27,7 +27,7 @@
     [self.view addSubview:self.customNavBar];
     // 设置自定义导航栏背景图片
     self.customNavBar.barBackgroundImage = [UIImage imageNamed:@"NavBarBG"];
-    //    [self wr_setNavBarTintColor:[UIColor yellowColor]];
+//        [self wr_setNavBarTintColor:[UIColor yellowColor]];
     
     // 设置自定义导航栏标题颜色
     self.customNavBar.titleLabelColor = [UIColor yellowColor];

@@ -2,12 +2,12 @@
 //  MineViewController.h
 //  LawCase
 //
-//  Created by affee on 2018/9/21.
+//  Created by affee on 2018/9/27.
 //  Copyright © 2018年 affee. All rights reserved.
 //
 
-#import "AFBaseNavigationController.h"
+#import "AFBaseViewController.h"
 
-@interface MineViewController : AFBaseNavigationController
+@interface MineViewController : AFBaseViewController
 
 @end

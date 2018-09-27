@@ -1,5 +1,5 @@
 //
-//  MessageViewController.h
+//  CaseDetailVC.h
 //  LawCase
 //
 //  Created by affee on 2018/9/27.
@@ -8,6 +8,6 @@
 
 #import "AFBaseViewController.h"
 
-@interface MessageViewController : AFBaseViewController
+@interface CaseDetailVC : AFBaseViewController
 
 @end

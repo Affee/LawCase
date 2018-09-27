@@ -1,22 +1,22 @@
 //
-//  MessageViewController.m
+//  CaseDetailVC.m
 //  LawCase
 //
 //  Created by affee on 2018/9/27.
 //  Copyright © 2018年 affee. All rights reserved.
 //
 
-#import "MessageViewController.h"
+#import "CaseDetailVC.h"
 
-@interface MessageViewController ()
+@interface CaseDetailVC ()
 
 @end
 
-@implementation MessageViewController
+@implementation CaseDetailVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.customNavBar.title = @"消息";
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

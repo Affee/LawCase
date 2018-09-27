@@ -14,6 +14,11 @@
 		F656A4AB2150BB5E00D9A60D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F656A4A92150BB5E00D9A60D /* LaunchScreen.storyboard */; };
 		F656A4AE2150BB5E00D9A60D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4AD2150BB5E00D9A60D /* main.m */; };
 		F656A4E2215113E300D9A60D /* sssssViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A4E1215113E300D9A60D /* sssssViewController.m */; };
+		F670FFC2215CB8800007BA9F /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F670FFC1215CB8800007BA9F /* MineViewController.m */; };
+		F670FFC5215CB8940007BA9F /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F670FFC4215CB8940007BA9F /* MessageViewController.m */; };
+		F670FFC8215CB8AC0007BA9F /* CaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F670FFC7215CB8AC0007BA9F /* CaseViewController.m */; };
+		F670FFCB215CC2900007BA9F /* CaseDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F670FFCA215CC2900007BA9F /* CaseDetailVC.m */; };
+		F670FFD1215CD0BC0007BA9F /* AFMineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F670FFD0215CD0BC0007BA9F /* AFMineHeaderView.m */; };
 		F6818BC4215226D000C5A519 /* UIFont+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC3215226D000C5A519 /* UIFont+Affee.m */; };
 		F6818BC7215247FE00C5A519 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC6215247FE00C5A519 /* DateUtil.m */; };
 		F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BC921524B9D00C5A519 /* UIImage+Affee.m */; };
@@ -26,9 +31,6 @@
 		F6818BDF215386CD00C5A519 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BDD215386CC00C5A519 /* WRNavigationBar.m */; };
 		F6818BE22153894300C5A519 /* AFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BE12153894300C5A519 /* AFBaseViewController.m */; };
 		F6818BE52153936F00C5A519 /* AFBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BE42153936F00C5A519 /* AFBaseNavigationController.m */; };
-		F6818BF7215490C000C5A519 /* CaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BF6215490C000C5A519 /* CaseViewController.m */; };
-		F6818BFB215490DD00C5A519 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BFA215490DD00C5A519 /* MineViewController.m */; };
-		F6818BFE215490EF00C5A519 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818BFD215490EF00C5A519 /* MessageViewController.m */; };
 		F6818C042154D3EE00C5A519 /* AFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6818C032154D3EE00C5A519 /* AFTabBarController.m */; };
 		F6818C082154F15E00C5A519 /* comui_tab_case1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6818C062154F15E00C5A519 /* comui_tab_case1.png */; };
 		F6818C092154F15E00C5A519 /* comui_tab_case.png in Resources */ = {isa = PBXBuildFile; fileRef = F6818C072154F15E00C5A519 /* comui_tab_case.png */; };
@@ -55,6 +57,16 @@
 		F656A4E6215212A400D9A60D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		F656A4E7215213BC00D9A60D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		F656A4E8215213DF00D9A60D /* KKCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKCommonMacro.h; sourceTree = "<group>"; };
+		F670FFC0215CB8800007BA9F /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		F670FFC1215CB8800007BA9F /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		F670FFC3215CB8940007BA9F /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F670FFC4215CB8940007BA9F /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F670FFC6215CB8AC0007BA9F /* CaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaseViewController.h; sourceTree = "<group>"; };
+		F670FFC7215CB8AC0007BA9F /* CaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaseViewController.m; sourceTree = "<group>"; };
+		F670FFC9215CC2900007BA9F /* CaseDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaseDetailVC.h; sourceTree = "<group>"; };
+		F670FFCA215CC2900007BA9F /* CaseDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaseDetailVC.m; sourceTree = "<group>"; };
+		F670FFCF215CD0BC0007BA9F /* AFMineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMineHeaderView.h; sourceTree = "<group>"; };
+		F670FFD0215CD0BC0007BA9F /* AFMineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFMineHeaderView.m; sourceTree = "<group>"; };
 		F6818BC2215226D000C5A519 /* UIFont+Affee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Affee.h"; sourceTree = "<group>"; };
 		F6818BC3215226D000C5A519 /* UIFont+Affee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Affee.m"; sourceTree = "<group>"; };
 		F6818BC5215247FE00C5A519 /* DateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
@@ -78,12 +90,6 @@
 		F6818BE12153894300C5A519 /* AFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBaseViewController.m; sourceTree = "<group>"; };
 		F6818BE32153936F00C5A519 /* AFBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFBaseNavigationController.h; sourceTree = "<group>"; };
 		F6818BE42153936F00C5A519 /* AFBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBaseNavigationController.m; sourceTree = "<group>"; };
-		F6818BF5215490C000C5A519 /* CaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaseViewController.h; sourceTree = "<group>"; };
-		F6818BF6215490C000C5A519 /* CaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaseViewController.m; sourceTree = "<group>"; };
-		F6818BF9215490DD00C5A519 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		F6818BFA215490DD00C5A519 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
-		F6818BFC215490EF00C5A519 /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
-		F6818BFD215490EF00C5A519 /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
 		F6818C022154D3EE00C5A519 /* AFTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFTabBarController.h; sourceTree = "<group>"; };
 		F6818C032154D3EE00C5A519 /* AFTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFTabBarController.m; sourceTree = "<group>"; };
 		F6818C062154F15E00C5A519 /* comui_tab_case1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comui_tab_case1.png; sourceTree = "<group>"; };
@@ -320,8 +326,10 @@
 		F6818BEB2153AD7B00C5A519 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F6818BF5215490C000C5A519 /* CaseViewController.h */,
-				F6818BF6215490C000C5A519 /* CaseViewController.m */,
+				F670FFC6215CB8AC0007BA9F /* CaseViewController.h */,
+				F670FFC7215CB8AC0007BA9F /* CaseViewController.m */,
+				F670FFC9215CC2900007BA9F /* CaseDetailVC.h */,
+				F670FFCA215CC2900007BA9F /* CaseDetailVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -350,8 +358,8 @@
 		F6818BEF2153B12D00C5A519 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F6818BF9215490DD00C5A519 /* MineViewController.h */,
-				F6818BFA215490DD00C5A519 /* MineViewController.m */,
+				F670FFC0215CB8800007BA9F /* MineViewController.h */,
+				F670FFC1215CB8800007BA9F /* MineViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -366,8 +374,8 @@
 		F6818BF12153B13B00C5A519 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F6818BFC215490EF00C5A519 /* MessageViewController.h */,
-				F6818BFD215490EF00C5A519 /* MessageViewController.m */,
+				F670FFC3215CB8940007BA9F /* MessageViewController.h */,
+				F670FFC4215CB8940007BA9F /* MessageViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -375,6 +383,8 @@
 		F6818BF22153B13B00C5A519 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F670FFCF215CD0BC0007BA9F /* AFMineHeaderView.h */,
+				F670FFD0215CD0BC0007BA9F /* AFMineHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -529,21 +539,23 @@
 			files = (
 				F6818BD8215348FC00C5A519 /* StringUtil.m in Sources */,
 				F6818BDE215386CD00C5A519 /* WRCustomNavigationBar.m in Sources */,
+				F670FFC8215CB8AC0007BA9F /* CaseViewController.m in Sources */,
 				F656A4E2215113E300D9A60D /* sssssViewController.m in Sources */,
-				F6818BFB215490DD00C5A519 /* MineViewController.m in Sources */,
+				F670FFC2215CB8800007BA9F /* MineViewController.m in Sources */,
+				F670FFD1215CD0BC0007BA9F /* AFMineHeaderView.m in Sources */,
 				F6818BE22153894300C5A519 /* AFBaseViewController.m in Sources */,
 				F6818BC4215226D000C5A519 /* UIFont+Affee.m in Sources */,
+				F670FFC5215CB8940007BA9F /* MessageViewController.m in Sources */,
 				F6818BD52153485000C5A519 /* UIColor+Affee.m in Sources */,
 				F6818BC7215247FE00C5A519 /* DateUtil.m in Sources */,
-				F6818BFE215490EF00C5A519 /* MessageViewController.m in Sources */,
 				F6818BD22152532900C5A519 /* NSDictionary+Nilsafe.m in Sources */,
+				F670FFCB215CC2900007BA9F /* CaseDetailVC.m in Sources */,
 				F6818BCF21524E6F00C5A519 /* UIButton+Affee.m in Sources */,
 				F6818BDF215386CD00C5A519 /* WRNavigationBar.m in Sources */,
 				F6818C042154D3EE00C5A519 /* AFTabBarController.m in Sources */,
 				F6818BCA21524B9D00C5A519 /* UIImage+Affee.m in Sources */,
 				F6818BE52153936F00C5A519 /* AFBaseNavigationController.m in Sources */,
 				F656A4AE2150BB5E00D9A60D /* main.m in Sources */,
-				F6818BF7215490C000C5A519 /* CaseViewController.m in Sources */,
 				F656A4A02150BB5B00D9A60D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

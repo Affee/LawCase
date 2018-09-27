@@ -2,11 +2,12 @@
 //  CaseViewController.m
 //  LawCase
 //
-//  Created by affee on 2018/9/21.
+//  Created by affee on 2018/9/27.
 //  Copyright © 2018年 affee. All rights reserved.
 //
 
 #import "CaseViewController.h"
+#import "CaseDetailVC.h"
 
 @interface CaseViewController ()
 
@@ -16,22 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.customNavBar.title = @"案件";
+    self.customNavBar.tintColor =  KKRGBA(240, 240, 240, 1);
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    CaseDetailVC *caseDet = [[CaseDetailVC alloc]init];
+    caseDet.view.backgroundColor = [UIColor blueColor];
+    caseDet.customNavBar.title = @"案件详情";
+    [self.navigationController pushViewController:caseDet animated:YES];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

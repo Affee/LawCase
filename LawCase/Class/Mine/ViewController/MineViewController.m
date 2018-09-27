@@ -2,11 +2,12 @@
 //  MineViewController.m
 //  LawCase
 //
-//  Created by affee on 2018/9/21.
+//  Created by affee on 2018/9/27.
 //  Copyright © 2018年 affee. All rights reserved.
 //
 
 #import "MineViewController.h"
+
 
 @interface MineViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.customNavBar.title = @"我的";
+    [self.customNavBar wr_setTintColor:KKWhitePurple];
+    
 }
 
 - (void)didReceiveMemoryWarning {
