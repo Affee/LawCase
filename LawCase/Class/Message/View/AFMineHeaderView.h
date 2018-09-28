@@ -15,6 +15,7 @@
 @property (strong, nonatomic) UILabel       *w_phoneNum;
 @property (strong, nonatomic) UILabel       *w_collecLabel;
 @property (strong, nonatomic) UILabel       *w_historyLabel;
+@property (strong, nonatomic) UIImageView   *w_noLoginHead;
 @property (strong, nonatomic) UIImageView   *w_right;
 
 @end

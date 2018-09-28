@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		586D163FDEA40F7003046978 /* w_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586D1B0D835CDA7C90C4E519 /* w_right@2x.png */; };
+		586D1B8D3433EE4F19C8EBEB /* w_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586D167C4F83C841FD6155C1 /* w_right@3x.png */; };
 		987E5812F92714997ED901A1 /* libPods-LawCase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04840693948C0EC400A18E6A /* libPods-LawCase.a */; };
 		F656A4A02150BB5B00D9A60D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F656A49F2150BB5B00D9A60D /* AppDelegate.m */; };
 		F656A4A62150BB5B00D9A60D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F656A4A42150BB5B00D9A60D /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		04840693948C0EC400A18E6A /* libPods-LawCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LawCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C3ED03BDD370E2DFA64135 /* Pods-LawCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawCase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LawCase/Pods-LawCase.debug.xcconfig"; sourceTree = "<group>"; };
+		586D167C4F83C841FD6155C1 /* w_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_right@3x.png"; sourceTree = "<group>"; };
+		586D1B0D835CDA7C90C4E519 /* w_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "w_right@2x.png"; sourceTree = "<group>"; };
 		7F92BA45D94E9092A6484F11 /* Pods-LawCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LawCase.release.xcconfig"; path = "Pods/Target Support Files/Pods-LawCase/Pods-LawCase.release.xcconfig"; sourceTree = "<group>"; };
 		F656A49B2150BB5B00D9A60D /* LawCase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LawCase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F656A49E2150BB5B00D9A60D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 			isa = PBXGroup;
 			children = (
 				F6818C052154F13B00C5A519 /* TabbarImages */,
+				586D167C4F83C841FD6155C1 /* w_right@3x.png */,
+				586D1B0D835CDA7C90C4E519 /* w_right@2x.png */,
 			);
 			path = Rescource;
 			sourceTree = "<group>";
@@ -484,6 +490,8 @@
 				F656A4A62150BB5B00D9A60D /* Main.storyboard in Resources */,
 				F6818C0D2154F18600C5A519 /* comui_tab_message.png in Resources */,
 				F6818C0B2154F17B00C5A519 /* comui_tab_message_selected0.png in Resources */,
+				586D1B8D3433EE4F19C8EBEB /* w_right@3x.png in Resources */,
+				586D163FDEA40F7003046978 /* w_right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
