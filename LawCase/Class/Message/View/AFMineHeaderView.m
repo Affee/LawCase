@@ -7,6 +7,7 @@
 //
 
 #import "AFMineHeaderView.h"
+#import "IQUIView+Hierarchy.h"
 
 @implementation AFMineHeaderView
 -(instancetype)initWithFrame:(CGRect)frame
@@ -114,6 +115,45 @@
         make.right.equalTo(self);
         make.height.equalTo(@40);
     }];
+
+    UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    leftBtn.backgroundColor = [UIColor yellowColor];
+    [leftBtn addTarget:self action:@selector(bottomBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [bottomBG addSubview:leftBtn];
+
+    UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    rightBtn.backgroundColor = [UIColor redColor];
+    rightBtn.tag = 1;
+    [rightBtn addTarget:self action:@selector(bottomBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [bottomBG addSubview:rightBtn];
+
+    [leftBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(bottomBG);
+        make.left.equalTo(bottomBG);
+        make.right.equalTo(rightBtn.mas_left);
+        make.width.equalTo(rightBtn);
+        make.height.equalTo(bottomBG);
+    }];
+    [rightBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(leftBtn.mas_right);
+        make.right.equalTo(bottomBG);
+        make.top.equalTo(bottomBG);
+        make.width.equalTo(leftBtn);
+        make.height.equalTo(bottomBG);
+    }];
+
+    self.w_collecLabel   = [[UILabel alloc] init];
+    _w_collecLabel.textColor = KKColorPurple;
+    _w_collecLabel.font = [UIFont affeeNormalFont:14];
+    _w_collecLabel.textAlignment = NSTextAlignmentCenter;
+    _w_collecLabel.text = @"123";
+    [bottomBG addSubview:_w_collecLabel];
+
+    self.w_historyLabel = [[UILabel alloc] init];
+    _w_historyLabel.textColor = KKColorPurple;
+    _w_historyLabel.font = [UIFont affeeNormalFont:14];
+    _w_historyLabel.textAlignment = NSTextAlignmentCenter;
+    [bottomBG addSubview:_w_collecLabel];
 
 
 
