@@ -153,11 +153,49 @@
     _w_historyLabel.textColor = KKColorPurple;
     _w_historyLabel.font = [UIFont affeeNormalFont:14];
     _w_historyLabel.textAlignment = NSTextAlignmentCenter;
+    _w_historyLabel.text = @"0";
     [bottomBG addSubview:_w_collecLabel];
 
+    [_w_collecLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+       make.top.equalTo(bottomBG).offset(3);
+       make.left.equalTo(bottomBG);
+       make.width.equalTo(bottomBG);
+       make.height.mas_equalTo(15);
+    }];
 
+    [_w_historyLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        @strongify(self);
+        make.right.equalTo(bottomBG);
+        make.centerY.equalTo(self.w_collecLabel);
+        make.width.equalTo(rightBtn);
+        make.height.mas_equalTo(15);
+    }];
 
+    UILabel *leftLabel = [[UILabel alloc] init];
+    leftLabel.textColor = KKColorLightGray;
+    leftLabel.font = [UIFont affeeNormalFont:14];
+    leftLabel.textAlignment = NSTextAlignmentCenter;
+    leftLabel.text = @"收藏";
+    [bottomBG addSubview:leftLabel];
+    [leftLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        @strongify(self);
+        make.left.equalTo(self.w_historyLabel);
+        make.right.equalTo(self.w_historyLabel);
+        make.top.equalTo(self.w_historyLabel.mas_bottom).offset(3);
+        make.height.mas_equalTo(15);
+    }];
 
 }
+-(void)topBtnClick {
+    [SVProgressHUD showInfoWithStatus:@"词不达意"];
+}
 
+- (void)bottomBtnClick:(UIButton *)btn{
+    [SVProgressHUD showInfoWithStatus:@"至死方休"];
+    AFLog(@"sssss");
+}
+
+-(void)collectBtnClick:(id)sender{
+    [SVProgressHUD showInfoWithStatus:@"当所有的人离开我的时候"];
+}
 @end
