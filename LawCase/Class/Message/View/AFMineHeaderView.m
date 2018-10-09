@@ -192,6 +192,7 @@
 
 - (void)bottomBtnClick:(UIButton *)btn{
     [SVProgressHUD showInfoWithStatus:@"至死方休"];
+
     AFLog(@"sssss");
 }
 
