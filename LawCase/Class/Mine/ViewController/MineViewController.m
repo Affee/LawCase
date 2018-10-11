@@ -16,27 +16,39 @@
 
 @property (nonatomic, strong)NSArray *titleView;
 
+@property(nonatomic,strong)NSArray              *titleArray;
+
 @property (nonatomic, strong)AFMineHeaderView *headerView;
 
 @property (nonatomic, strong)UIButton *setBtn;
+
+@property (nonatomic, assign)BOOL  dismissFlag;
 
 
 @end
 
 @implementation MineViewController
+//@dynamic viewModel;
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.customNavBar.title = @"我的";
     [self.customNavBar wr_setTintColor:KKWhitePurple];
-    
+    self.automaticallyAdjustsScrollViewInsets = NO;
+
+    [self initView];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.C7grbBQHgna  C7gRBQHgna
+-(void)initView{
+    [self.view addSubview:self.tableView];
+    _titleArray = @[@"推荐",@"意见",@"热线",@"意见反馈"];
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+//    [self.tableView registerNib:[UINib nibWithNibName:@"" bundle:<#(nullable NSBundle *)bundleOrNil#>] forCellReuseIdentifier:<#(NSString *)identifier#>];
 }
-
 
 
 @end
