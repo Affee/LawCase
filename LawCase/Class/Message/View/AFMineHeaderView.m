@@ -197,6 +197,6 @@
 }
 
 -(void)collectBtnClick:(id)sender{
-    [SVProgressHUD showInfoWithStatus:@"当所有的人离开我的时候"];
+    [SVProgressHUD showInfoWithStatus:@"当所有的人离开我的时候 回去啦 又到了周末了，滴滴滴"];
 }
 @end
