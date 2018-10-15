@@ -50,5 +50,18 @@
 //    [self.tableView registerNib:[UINib nibWithNibName:@"" bundle:<#(nullable NSBundle *)bundleOrNil#>] forCellReuseIdentifier:<#(NSString *)identifier#>];
 }
 
+#pragma mark - tableViewDelegate
+-(void)tableView:(UITableView *)tableView:didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+}
+
+- (nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section {
+    UIView *footView;
+    if(section ==2)
+    {
+        footView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, KKScreenWidth, 0.05)];
+
+    }
+}
 
 @end
