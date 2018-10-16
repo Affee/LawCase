@@ -28,6 +28,6 @@
     self.window.rootViewController = [[AFTabBarController alloc]init];
     [self.window makeKeyAndVisible];
 }
-
+//https://gitee.com/affee/WeiDianKe.git
 
 @end
