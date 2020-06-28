@@ -32,6 +32,7 @@
     NSArray *selImage = @[@"首页icon_pressed copy",@"服务icon_pressed copy",@"我的icon_pressed copy"];
     NSArray *childVC =  @[@"CaseViewController",@"MessageViewController",@"MineViewController"];
     NSArray *titleArray = @[@"办案",@"消息",@"我的"];
+    int a = 10;
     
     NSMutableArray *arrayM = [NSMutableArray array];
     for (int i = 0; i < childVC.count; i++) {
