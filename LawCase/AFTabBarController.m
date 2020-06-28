@@ -34,6 +34,7 @@
     NSArray *titleArray = @[@"办案",@"消息",@"我的"];
     int a = 10;
     int mmmm = 12211412;
+    NSString *str = @"哈哈哈哈哈";
     
     NSMutableArray *arrayM = [NSMutableArray array];
     for (int i = 0; i < childVC.count; i++) {
@@ -41,7 +42,7 @@
         UIViewController * vc = [[cls alloc]init];
         vc.tabBarItem.title = titleArray[i];
         vc.tabBarItem.image = [UIImage imageNamed:norImage[i]];
-        AFBaseNavigationController *navc = [[AFBaseNavigationController alloc] initWithRootViewController:vc];
+        AFBaseNavigationController *navc = [[UINavigationController alloc] initWithRootViewController:vc];
         navc.navigationBar.translucent = NO;
         //设置原始图片
         vc.tabBarItem.selectedImage = [[UIImage imageNamed:selImage[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
