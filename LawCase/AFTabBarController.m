@@ -33,6 +33,7 @@
     NSArray *childVC =  @[@"CaseViewController",@"MessageViewController",@"MineViewController"];
     NSArray *titleArray = @[@"办案",@"消息",@"我的"];
     int a = 10;
+    int mmmm = 12211412;
     
     NSMutableArray *arrayM = [NSMutableArray array];
     for (int i = 0; i < childVC.count; i++) {
