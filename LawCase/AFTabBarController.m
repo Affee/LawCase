@@ -35,6 +35,7 @@
     int a = 10;
     int mmmm = 12211412;
     NSString *str = @"哈哈哈哈哈";
+    NSString *barnac = @"ssssdd";
     
     NSMutableArray *arrayM = [NSMutableArray array];
     for (int i = 0; i < childVC.count; i++) {
