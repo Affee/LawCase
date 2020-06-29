@@ -37,6 +37,9 @@
     NSString *str = @"哈哈哈哈哈";
     NSString *barnac = @"ssssdd";
     NSString *barna = @"ssssddsada2";
+    NSString *barn3 = @"ssssddsada3";
+
+    
 
     
     NSMutableArray *arrayM = [NSMutableArray array];
