@@ -36,6 +36,11 @@
     int mmmm = 12211412;
     NSString *str = @"哈哈哈哈哈";
     
+    NSString *str1 = @"哈哈哈哈哈";
+    NSString *str2 = @"哈哈哈哈哈";
+    NSString *str3 = @"哈哈哈哈哈";
+
+    
     NSMutableArray *arrayM = [NSMutableArray array];
     for (int i = 0; i < childVC.count; i++) {
         Class cls  = NSClassFromString(childVC[i]);
